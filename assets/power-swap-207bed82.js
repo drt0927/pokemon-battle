@@ -1,0 +1,119 @@
+const y=null,A=null,w=null,a={name:"beauty",url:"https://pokeapi.co/api/v2/contest-type/2/"},e={name:"status",url:"https://pokeapi.co/api/v2/move-damage-class/1/"},o=null,p=[],t=[{effect:"User swaps its Attack and Special Attack stat modifiers modifiers with the target.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},short_effect:"User swaps Attack and Special Attack changes with the target."}],n=[{flavor_text:`The user employs its
+psychic power to
+switch changes to
+its Attack and
+Sp. Atk with the foe.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"diamond-pearl",url:"https://pokeapi.co/api/v2/version-group/8/"}},{flavor_text:`The user employs its
+psychic power to
+switch changes to
+its Attack and
+Sp. Atk with the foe.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"platinum",url:"https://pokeapi.co/api/v2/version-group/9/"}},{flavor_text:`The user employs its
+psychic power to
+switch changes to
+its Attack and
+Sp. Atk with the foe.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"heartgold-soulsilver",url:"https://pokeapi.co/api/v2/version-group/10/"}},{flavor_text:`Pouvoir qui échange les modifications
+de l’Attaque Spéciale et de l’Attaque
+du lanceur avec la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"black-white",url:"https://pokeapi.co/api/v2/version-group/11/"}},{flavor_text:`The user employs its psychic power to
+switch changes to its Attack and
+Sp. Atk with the target.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"black-white",url:"https://pokeapi.co/api/v2/version-group/11/"}},{flavor_text:`The user employs its psychic power to
+switch changes to its Attack and
+Sp. Atk with the target.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"black-2-white-2",url:"https://pokeapi.co/api/v2/version-group/14/"}},{flavor_text:`ちょうのうりょくで　じぶんと　あいての
+こうげきと　とくこうの
+のうりょく　へんかを　いれかえる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`초능력으로 자신과 상대의
+공격과 특수공격의
+능력 변화를 교체한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`Pouvoir qui échange les modifications de
+l’Attaque Spéciale et de l’Attaque du lanceur
+avec la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`Psychische Kräfte tauschen Änderungen an Angriff
+und Spezial-Angriff mit denen des Zieles.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`El usuario emplea su poder mental para
+intercambiar los cambios en Ataque y Ataque
+Especial con el objetivo.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`Chi la usa sfrutta la sua forza psichica
+per scambiare le modifiche ad Attacco e
+Attacco Speciale con il bersaglio.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`The user employs its psychic power to
+switch changes to its Attack and
+Sp. Atk stats with the target.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`超能力で　自分と　相手の
+攻撃と　特攻の
+能力変化を　入れ替える。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`ちょうのうりょくで　じぶんと　あいての
+こうげきと　とくこうの
+のうりょく　へんかを　いれかえる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`초능력으로 자신과 상대의
+공격과 특수공격의
+능력 변화를 교체한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`Pouvoir qui échange les modifications de
+l’Attaque Spéciale et de l’Attaque du lanceur
+avec la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`Psychische Kräfte tauschen Änderungen an Angriff
+und Spezial-Angriff mit denen des Zieles.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`El usuario emplea su poder mental para
+intercambiar los cambios en Ataque y Ataque
+Especial con el objetivo.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`Chi la usa sfrutta la sua forza psichica
+per scambiare le modifiche ad Attacco e
+Attacco Speciale con il bersaglio.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`The user employs its psychic power to
+switch changes to its Attack and
+Sp. Atk stats with the target.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`超能力で　自分と　相手の
+攻撃と　特攻の
+能力変化を　入れ替える。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`ちょうのうりょくで　じぶんと　あいての
+こうげきと　とくこうの
+のうりょく　へんかを　いれかえる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`초능력으로 자신과 상대의
+공격과 특수공격의
+능력 변화를 교체한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`用超能力將自己和對手的
+攻擊與特攻的能力變化互相交換。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Pouvoir qui échange les modifications de
+l’Attaque Spéciale et de l’Attaque du lanceur
+avec la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Psychische Kräfte tauschen Änderungen an Angriff
+und Spezial-Angriff mit denen des Zieles.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`El usuario emplea su poder mental para
+intercambiar los cambios en Ataque y Ataque
+Especial con el objetivo.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Chi la usa sfrutta la sua forza psichica per
+scambiare le modifiche ad Attacco e Attacco
+Speciale con il bersaglio.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`The user employs its psychic power to switch
+changes to its Attack and Sp. Atk stats with
+the target.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`超能力で　自分と　相手の
+攻撃と　特攻の
+能力変化を　入れ替える。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`利用超能力互换
+自己和对手的攻击
+以及特攻的能力变化。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`ちょうのうりょくで　じぶんと　あいての
+こうげきと　とくこうの
+のうりょく　へんかを　いれかえる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`초능력으로 자신과 상대의
+공격과 특수공격의
+능력 변화를 교체한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`用超能力將自己和對手的
+攻擊與特攻的能力變化互相交換。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Pouvoir qui échange les modifications de
+l’Attaque Spéciale et de l’Attaque du lanceur
+avec la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Psychische Kräfte tauschen Änderungen an Angriff
+und Spezial-Angriff mit denen des Zieles.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`El usuario emplea su poder mental para
+intercambiar los cambios en Ataque y Ataque
+Especial con el objetivo.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Chi la usa sfrutta la sua forza psichica per
+scambiare le modifiche ad Attacco e Attacco
+Speciale con il bersaglio.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`The user employs its psychic power to switch
+changes to its Attack and Sp. Atk stats with
+the target.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`超能力で　自分と　相手の
+攻撃と　特攻の
+能力変化を　入れ替える。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`利用超能力互换
+自己和对手的攻击
+以及特攻的能力变化。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`ちょうのうりょくで　じぶんと　あいての
+こうげきと　とくこうの
+のうりょく　へんかを　いれかえる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`초능력으로 자신과 상대의
+공격과 특수공격의
+능력 변화를 교체한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`用超能力將自己和對手的
+攻擊與特攻的能力變化互相交換。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Pouvoir qui échange les modifications de
+l’Attaque Spéciale et de l’Attaque du lanceur
+avec la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Psychische Kräfte tauschen Änderungen an Angriff
+und Spezial-Angriff mit denen des Zieles.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`El usuario emplea su poder mental para
+intercambiar los cambios en Ataque y Ataque
+Especial con el objetivo.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Chi la usa sfrutta la sua forza psichica per
+scambiare le modifiche ad Attacco e Attacco
+Speciale con il bersaglio.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`The user employs its psychic power to switch
+changes to its Attack and Sp. Atk stats with
+the target.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`超能力で　自分と　相手の
+攻撃と　特攻の
+能力変化を　入れ替える。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`利用超能力互换
+自己和对手的攻击
+以及特攻的能力变化。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`ちょうのうりょくで　じぶんと　あいての
+こうげきと　とくこうの
+のうりょく　へんかを　いれかえる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`초능력으로 자신과 상대의
+공격과 특수공격의
+능력 변화를 교체한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`用超能力將自己和對手的
+攻擊與特攻的能力變化互相交換。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Pouvoir qui échange les modifications de l’Attaque
+Spéciale et de l’Attaque du lanceur avec la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Psychische Kräfte tauschen Änderungen an Angriff
+und Spezial-Angriff mit denen des Zieles.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`El usuario emplea su poder mental para intercambiar los
+cambios en el Ataque y Ataque Especial con el objetivo.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Chi la usa sfrutta la sua forza psichica per scambiare
+le modifiche ad Attacco e Attacco Speciale
+con il bersaglio.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`The user employs its psychic power to switch
+changes to its Attack and Sp. Atk stats with
+the target.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`超能力で　自分と　相手の
+攻撃と　特攻の
+能力変化を　入れ替える。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`利用超能力互换
+自己和对手的攻击
+以及特攻的能力变化。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:"The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"legends-arceus",url:"https://pokeapi.co/api/v2/version-group/24/"}},{flavor_text:"The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"scarlet-violet",url:"https://pokeapi.co/api/v2/version-group/25/"}}],i={name:"generation-iv",url:"https://pokeapi.co/api/v2/generation/4/"},r=384,s=[{name:"vulpix",url:"https://pokeapi.co/api/v2/pokemon/37/"},{name:"ninetales",url:"https://pokeapi.co/api/v2/pokemon/38/"},{name:"abra",url:"https://pokeapi.co/api/v2/pokemon/63/"},{name:"kadabra",url:"https://pokeapi.co/api/v2/pokemon/64/"},{name:"alakazam",url:"https://pokeapi.co/api/v2/pokemon/65/"},{name:"exeggcute",url:"https://pokeapi.co/api/v2/pokemon/102/"},{name:"exeggutor",url:"https://pokeapi.co/api/v2/pokemon/103/"},{name:"tangela",url:"https://pokeapi.co/api/v2/pokemon/114/"},{name:"mr-mime",url:"https://pokeapi.co/api/v2/pokemon/122/"},{name:"magmar",url:"https://pokeapi.co/api/v2/pokemon/126/"},{name:"porygon",url:"https://pokeapi.co/api/v2/pokemon/137/"},{name:"mewtwo",url:"https://pokeapi.co/api/v2/pokemon/150/"},{name:"mew",url:"https://pokeapi.co/api/v2/pokemon/151/"},{name:"natu",url:"https://pokeapi.co/api/v2/pokemon/177/"},{name:"xatu",url:"https://pokeapi.co/api/v2/pokemon/178/"},{name:"espeon",url:"https://pokeapi.co/api/v2/pokemon/196/"},{name:"girafarig",url:"https://pokeapi.co/api/v2/pokemon/203/"},{name:"porygon2",url:"https://pokeapi.co/api/v2/pokemon/233/"},{name:"magby",url:"https://pokeapi.co/api/v2/pokemon/240/"},{name:"seedot",url:"https://pokeapi.co/api/v2/pokemon/273/"},{name:"nuzleaf",url:"https://pokeapi.co/api/v2/pokemon/274/"},{name:"shiftry",url:"https://pokeapi.co/api/v2/pokemon/275/"},{name:"gardevoir",url:"https://pokeapi.co/api/v2/pokemon/282/"},{name:"meditite",url:"https://pokeapi.co/api/v2/pokemon/307/"},{name:"swablu",url:"https://pokeapi.co/api/v2/pokemon/333/"},{name:"altaria",url:"https://pokeapi.co/api/v2/pokemon/334/"},{name:"lunatone",url:"https://pokeapi.co/api/v2/pokemon/337/"},{name:"solrock",url:"https://pokeapi.co/api/v2/pokemon/338/"},{name:"baltoy",url:"https://pokeapi.co/api/v2/pokemon/343/"},{name:"claydol",url:"https://pokeapi.co/api/v2/pokemon/344/"},{name:"bronzor",url:"https://pokeapi.co/api/v2/pokemon/436/"},{name:"bronzong",url:"https://pokeapi.co/api/v2/pokemon/437/"},{name:"tangrowth",url:"https://pokeapi.co/api/v2/pokemon/465/"},{name:"magmortar",url:"https://pokeapi.co/api/v2/pokemon/467/"},{name:"porygon-z",url:"https://pokeapi.co/api/v2/pokemon/474/"},{name:"cresselia",url:"https://pokeapi.co/api/v2/pokemon/488/"},{name:"victini",url:"https://pokeapi.co/api/v2/pokemon/494/"},{name:"munna",url:"https://pokeapi.co/api/v2/pokemon/517/"},{name:"musharna",url:"https://pokeapi.co/api/v2/pokemon/518/"},{name:"darmanitan-standard",url:"https://pokeapi.co/api/v2/pokemon/555/"},{name:"sigilyph",url:"https://pokeapi.co/api/v2/pokemon/561/"},{name:"cofagrigus",url:"https://pokeapi.co/api/v2/pokemon/563/"},{name:"solosis",url:"https://pokeapi.co/api/v2/pokemon/577/"},{name:"duosion",url:"https://pokeapi.co/api/v2/pokemon/578/"},{name:"reuniclus",url:"https://pokeapi.co/api/v2/pokemon/579/"},{name:"elgyem",url:"https://pokeapi.co/api/v2/pokemon/605/"},{name:"beheeyem",url:"https://pokeapi.co/api/v2/pokemon/606/"},{name:"accelgor",url:"https://pokeapi.co/api/v2/pokemon/617/"},{name:"tapu-koko",url:"https://pokeapi.co/api/v2/pokemon/785/"},{name:"tapu-lele",url:"https://pokeapi.co/api/v2/pokemon/786/"},{name:"tapu-bulu",url:"https://pokeapi.co/api/v2/pokemon/787/"},{name:"magearna",url:"https://pokeapi.co/api/v2/pokemon/801/"},{name:"dottler",url:"https://pokeapi.co/api/v2/pokemon/825/"},{name:"orbeetle",url:"https://pokeapi.co/api/v2/pokemon/826/"},{name:"hatterene",url:"https://pokeapi.co/api/v2/pokemon/858/"},{name:"grimmsnarl",url:"https://pokeapi.co/api/v2/pokemon/861/"},{name:"mr-rime",url:"https://pokeapi.co/api/v2/pokemon/866/"},{name:"runerigus",url:"https://pokeapi.co/api/v2/pokemon/867/"},{name:"indeedee-male",url:"https://pokeapi.co/api/v2/pokemon/876/"},{name:"zamazenta",url:"https://pokeapi.co/api/v2/pokemon/889/"},{name:"calyrex",url:"https://pokeapi.co/api/v2/pokemon/898/"},{name:"rabsca",url:"https://pokeapi.co/api/v2/pokemon/954/"},{name:"farigiraf",url:"https://pokeapi.co/api/v2/pokemon/981/"},{name:"darmanitan-zen",url:"https://pokeapi.co/api/v2/pokemon/10017/"},{name:"mewtwo-mega-x",url:"https://pokeapi.co/api/v2/pokemon/10043/"},{name:"mewtwo-mega-y",url:"https://pokeapi.co/api/v2/pokemon/10044/"},{name:"vulpix-alola",url:"https://pokeapi.co/api/v2/pokemon/10103/"},{name:"ninetales-alola",url:"https://pokeapi.co/api/v2/pokemon/10104/"},{name:"exeggutor-alola",url:"https://pokeapi.co/api/v2/pokemon/10114/"},{name:"magearna-original",url:"https://pokeapi.co/api/v2/pokemon/10147/"},{name:"mr-mime-galar",url:"https://pokeapi.co/api/v2/pokemon/10168/"},{name:"articuno-galar",url:"https://pokeapi.co/api/v2/pokemon/10169/"},{name:"zamazenta-crowned",url:"https://pokeapi.co/api/v2/pokemon/10189/"},{name:"calyrex-ice",url:"https://pokeapi.co/api/v2/pokemon/10193/"},{name:"calyrex-shadow",url:"https://pokeapi.co/api/v2/pokemon/10194/"}],u=[{machine:{url:"https://pokeapi.co/api/v2/machine/1111/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}}],l={ailment:{name:"none",url:"https://pokeapi.co/api/v2/move-ailment/0/"},ailment_chance:0,category:{name:"unique",url:"https://pokeapi.co/api/v2/move-category/13/"},crit_rate:0,drain:0,flinch_chance:0,healing:0,max_hits:null,max_turns:null,min_hits:null,min_turns:null,stat_chance:0},g="power-swap",c=[{language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},name:"パワースワップ"},{language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},name:"파워스웹"},{language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},name:"力量互換"},{language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},name:"Permuforce"},{language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},name:"Krafttausch"},{language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},name:"Cambiafuerza"},{language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},name:"Barattoforza"},{language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},name:"Power Swap"},{language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},name:"パワースワップ"},{language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},name:"力量互换"}],m=[],v=null,h=10,k=0,f=[],_={url:"https://pokeapi.co/api/v2/super-contest-effect/16/"},d={name:"selected-pokemon",url:"https://pokeapi.co/api/v2/move-target/10/"},x={name:"psychic",url:"https://pokeapi.co/api/v2/type/14/"},b={accuracy:null,contest_combos:null,contest_effect:null,contest_type:a,damage_class:e,effect_chance:o,effect_changes:p,effect_entries:t,flavor_text_entries:n,generation:i,id:r,learned_by_pokemon:s,machines:u,meta:l,name:g,names:c,past_values:m,power:v,pp:h,priority:k,stat_changes:f,super_contest_effect:_,target:d,type:x};export{y as accuracy,A as contest_combos,w as contest_effect,a as contest_type,e as damage_class,b as default,o as effect_chance,p as effect_changes,t as effect_entries,n as flavor_text_entries,i as generation,r as id,s as learned_by_pokemon,u as machines,l as meta,g as name,c as names,m as past_values,v as power,h as pp,k as priority,f as stat_changes,_ as super_contest_effect,d as target,x as type};

@@ -1,0 +1,39 @@
+const x=100,y=null,w=null,b=null,e={name:"physical",url:"https://pokeapi.co/api/v2/move-damage-class/2/"},a=100,t=[],o=[{effect:"Inflicts regular damage.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},short_effect:"Inflicts regular damage with no additional effect."}],n=[{flavor_text:`Ein stürmischer Blitz-Angriff mit hoher Erstschlag- und
+Volltrefferquote.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Ataque eléctrico a la velocidad del rayo. Este
+movimiento tiene prioridad alta y propina golpes
+críticos.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`もうスピードの　でんげき　アタック。
+かならず　せんせい　こうげき　できて
+きゅうしょに　あたる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`맹렬한 속도의 전격 공격.
+반드시 선제공격할 수 있고
+급소에 맞는다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`迅猛無比的電擊。
+必定能夠發動先制攻擊，
+擊中對手要害。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Une attaque électrique rapide comme l’éclair qui inflige
+un coup critique à coup sûr. Frappe en priorité.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Un attacco elettrico ad altissima velocità.
+Questa mossa ha priorità alta e infligge
+sicuramente un brutto colpo.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`The user attacks the target with bursts of electricity
+at high speed. This move always goes first and results
+in a critical hit.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`猛スピードの　電撃　アタック。
+必ず　先制攻撃　できて
+急所に　あたる。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`迅猛无比的电击。
+必定能够先制攻击，
+击中对方的要害。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`このわざは　つかえません
+おもいだすことが　できなくなりますが
+わざを　わすれることを　おすすめします`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`사용할 수 없는 기술입니다.
+다시 배우게 할 수 없지만
+기술을 잊게 하는 것을 권장합니다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`無法使用此招式。
+雖然忘記後將無法再想起來，
+但還是建議忘記此招式。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Cette capacité ne peut pas être utilisée.
+Il est recommandé de l’oublier, même s’il sera
+impossible de se la remémorer une fois oubliée.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Diese Attacke kann nicht eingesetzt werden. Du solltest
+dein Pokémon sie vergessen lassen. Beachte aber,
+dass es sich danach nicht wieder an sie erinnern kann.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Este movimiento no se puede usar, por lo que sería
+mejor olvidarlo, aunque eso implique que no se pueda
+recordar posteriormente.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Questa mossa non può essere usata.
+È consigliabile farla dimenticare al Pokémon. Tuttavia,
+una volta dimenticata, non potrà più essere ricordata.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`This move can’t be used.
+It’s recommended that this move is forgotten.
+Once forgotten, this move can’t be remembered.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`この技は　使えません
+思い出すことが　できなくなりますが
+技を　忘れることを　おすすめします`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`无法使用这个招式。
+虽然忘记之后就再也想不起来了，
+但还是建议忘记这个招式。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}}],p={name:"generation-vii",url:"https://pokeapi.co/api/v2/generation/7/"},i=729,s=[{name:"pikachu-starter",url:"https://pokeapi.co/api/v2/pokemon/10158/"}],r=[],l={ailment:{name:"none",url:"https://pokeapi.co/api/v2/move-ailment/0/"},ailment_chance:0,category:{name:"damage+raise",url:"https://pokeapi.co/api/v2/move-category/7/"},crit_rate:0,drain:0,flinch_chance:0,healing:0,max_hits:null,max_turns:null,min_hits:null,min_turns:null,stat_chance:100},u="zippy-zap",g=[{language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},name:"ばちばちアクセル"},{language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},name:"파찌파찌액셀"},{language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},name:"電電加速"},{language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},name:"Pika-Sprint"},{language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},name:"Britzelturbo"},{language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},name:"Pikaturbo"},{language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},name:"Sprintaboom"},{language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},name:"Zippy Zap"},{language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},name:"ばちばちアクセル"},{language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},name:"电电加速"}],c=[{accuracy:null,effect_chance:null,effect_entries:[],power:50,pp:15,type:null,version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}}],v=80,m=10,h=2,k=[{change:1,stat:{name:"evasion",url:"https://pokeapi.co/api/v2/stat/8/"}}],_=null,f={name:"selected-pokemon",url:"https://pokeapi.co/api/v2/move-target/10/"},d={name:"electric",url:"https://pokeapi.co/api/v2/type/13/"},z={accuracy:100,contest_combos:null,contest_effect:null,contest_type:null,damage_class:e,effect_chance:a,effect_changes:t,effect_entries:o,flavor_text_entries:n,generation:p,id:i,learned_by_pokemon:s,machines:r,meta:l,name:u,names:g,past_values:c,power:v,pp:m,priority:h,stat_changes:k,super_contest_effect:_,target:f,type:d};export{x as accuracy,y as contest_combos,w as contest_effect,b as contest_type,e as damage_class,z as default,a as effect_chance,t as effect_changes,o as effect_entries,n as flavor_text_entries,p as generation,i as id,s as learned_by_pokemon,r as machines,l as meta,u as name,g as names,c as past_values,v as power,m as pp,h as priority,k as stat_changes,_ as super_contest_effect,f as target,d as type};

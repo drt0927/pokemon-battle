@@ -1,0 +1,64 @@
+const x=100,b=null,y=null,A=null,e={name:"special",url:"https://pokeapi.co/api/v2/move-damage-class/3/"},a=null,o=[],t=[{effect:"Inflicts regular damage.  Other Pokémon's abilities cannot activate in response to this move.  In particular, it hits through disguise",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},short_effect:"Cannot be disrupted by abilities."}],n=[{flavor_text:`あやしい　こうせんを　はなって
+こうげきする。あいての　とくせいを
+むしして　こうげき　することが　できる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`괴상한 광선을 쏘아
+공격한다. 상대의 특성을
+무시하고 공격할 수 있다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`放出奇怪的光線攻擊對手。
+可不顧對手的特性進行攻擊。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Le lanceur attaque avec un rayon de lumière
+mystérieux. Ignore le talent de la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Der Anwender greift mit einem unheimlichen
+Lichtstrahl an. Diese Attacke ignoriert die Fähigkeit
+des Zieles.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Ataca con un rayo misterioso que ignora la habilidad
+del objetivo.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Chi la usa proietta sul bersaglio un misterioso
+raggio di luce. Questo attacco ignora l’abilità
+del bersaglio.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`The user emits a sinister ray to attack the target.
+This move can be used on the target regardless of 
+its Abilities.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`怪しい　光線を　放って
+攻撃する。相手の　特性を
+無視して　攻撃　することが　できる。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`放出奇怪的光线攻击对手。
+可以无视对手的特性进行攻击。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`あやしい　こうせんを　はなって
+こうげきする。あいての　とくせいを
+むしして　こうげき　することが　できる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`괴상한 광선을 쏘아
+공격한다. 상대의 특성을
+무시하고 공격할 수 있다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`放出奇怪的光線攻擊對手。
+可不顧對手的特性進行攻擊。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Le lanceur attaque avec un rayon de lumière
+mystérieux. Ignore le talent de la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Der Anwender greift mit einem unheimlichen
+Lichtstrahl an. Diese Attacke ignoriert die Fähigkeit
+des Zieles.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Ataca con un rayo misterioso que ignora la habilidad
+del objetivo.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Chi la usa proietta sul bersaglio un misterioso
+raggio di luce. Questo attacco ignora l’abilità
+del bersaglio.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`The user emits a sinister ray to attack the target.
+This move can be used on the target regardless of 
+its Abilities.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`怪しい　光線を　放って
+攻撃する。相手の　特性を
+無視して　攻撃　することが　できる。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`放出奇怪的光线攻击对手。
+可以无视对手的特性进行攻击。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`あやしい　こうせんを　はなって
+こうげきする。あいての　とくせいを
+むしして　こうげき　することが　できる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`괴상한 광선을 쏘아
+공격한다. 상대의 특성을
+무시하고 공격할 수 있다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`放出奇怪的光線攻擊對手。
+可不顧對手的特性進行攻擊。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Le lanceur attaque avec un rayon de lumière mystérieux.
+Ignore le talent de la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Der Anwender greift mit einem unheimlichen
+Lichtstrahl an. Diese Attacke ignoriert die Fähigkeit
+des Zieles.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Ataca con un rayo misterioso que ignora la habilidad
+del objetivo.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Chi la usa proietta sul bersaglio un misterioso
+raggio di luce. Questo attacco ignora l’abilità
+del bersaglio.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`The user emits a sinister ray to attack the target.
+This move can be used on the target regardless of
+its Abilities.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`怪しい　光線を　放って
+攻撃する。相手の　特性を
+無視して　攻撃　することが　できる。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`放出奇怪的光线攻击对手。
+可以无视对手的特性进行攻击。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`あやしい　こうせんを　はなって
+こうげきする。あいての　とくせいを
+むしして　こうげき　することが　できる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`괴상한 광선을 쏘아
+공격한다. 상대의 특성을
+무시하고 공격할 수 있다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`放出奇怪的光線攻擊對手。
+可不顧對手的特性進行攻擊。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Le lanceur attaque avec un rayon de lumière mystérieux.
+Ignore le talent de la cible.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Der Anwender greift mit einem unheimlichen Lichtstrahl
+an. Diese Attacke ignoriert die Fähigkeit des Zieles.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Ataca con un rayo misterioso que ignora la habilidad
+del objetivo.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Chi la usa proietta sul bersaglio un misterioso
+raggio di luce. Questo attacco ignora l’abilità
+del bersaglio.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`The user emits a sinister ray to attack the target.
+This move can be used on the target regardless of
+its Abilities.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`怪しい　光線を　放って
+攻撃する。相手の　特性を
+無視して　攻撃　することが　できる。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`放出奇怪的光线攻击对手。
+可以无视对手的特性进行攻击。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:"The user emits a sinister ray to attack the target. This move can be used on the target regardless of its Abilities.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"legends-arceus",url:"https://pokeapi.co/api/v2/version-group/24/"}},{flavor_text:"The user emits a sinister ray to attack the target. This move can be used on the target regardless of its Ability.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"scarlet-violet",url:"https://pokeapi.co/api/v2/version-group/25/"}}],i={name:"generation-vii",url:"https://pokeapi.co/api/v2/generation/7/"},p=714,r=[{name:"lunala",url:"https://pokeapi.co/api/v2/pokemon/792/"}],s=[],l={ailment:{name:"none",url:"https://pokeapi.co/api/v2/move-ailment/0/"},ailment_chance:0,category:{name:"damage",url:"https://pokeapi.co/api/v2/move-category/0/"},crit_rate:0,drain:0,flinch_chance:0,healing:0,max_hits:null,max_turns:null,min_hits:null,min_turns:null,stat_chance:0},u="moongeist-beam",g=[{language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},name:"シャドーレイ"},{language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},name:"섀도레이"},{language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},name:"暗影之光"},{language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},name:"Rayon Spectral"},{language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},name:"Schattenstrahl"},{language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},name:"Rayo Umbrío"},{language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},name:"Raggio d’Ombra"},{language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},name:"Moongeist Beam"},{language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},name:"シャドーレイ"},{language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},name:"暗影之光"}],v=[],c=100,m=5,h=0,k=[],_=null,d={name:"selected-pokemon",url:"https://pokeapi.co/api/v2/move-target/10/"},f={name:"ghost",url:"https://pokeapi.co/api/v2/type/8/"},w={accuracy:100,contest_combos:null,contest_effect:null,contest_type:null,damage_class:e,effect_chance:a,effect_changes:o,effect_entries:t,flavor_text_entries:n,generation:i,id:p,learned_by_pokemon:r,machines:s,meta:l,name:u,names:g,past_values:v,power:c,pp:m,priority:h,stat_changes:k,super_contest_effect:_,target:d,type:f};export{x as accuracy,b as contest_combos,y as contest_effect,A as contest_type,e as damage_class,w as default,a as effect_chance,o as effect_changes,t as effect_entries,n as flavor_text_entries,i as generation,p as id,r as learned_by_pokemon,s as machines,l as meta,u as name,g as names,v as past_values,c as power,m as pp,h as priority,k as stat_changes,_ as super_contest_effect,d as target,f as type};

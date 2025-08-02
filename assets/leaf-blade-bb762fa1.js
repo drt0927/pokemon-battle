@@ -1,0 +1,106 @@
+const y=100,w=null,a={url:"https://pokeapi.co/api/v2/contest-effect/2/"},e={name:"cool",url:"https://pokeapi.co/api/v2/contest-type/1/"},o={name:"physical",url:"https://pokeapi.co/api/v2/move-damage-class/2/"},p=null,n=[],t=[{effect:"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},short_effect:"Has an increased chance for a critical hit."}],i=[{flavor_text:`Slashes with a sharp leaf.
+High critical-hit ratio.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"emerald",url:"https://pokeapi.co/api/v2/version-group/6/"}},{flavor_text:`Slashes with a sharp leaf.
+High critical-hit ratio.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"ruby-sapphire",url:"https://pokeapi.co/api/v2/version-group/5/"}},{flavor_text:`The foe is slashed
+with a sharp leaf.
+It has a high
+critical-hit ratio.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"firered-leafgreen",url:"https://pokeapi.co/api/v2/version-group/7/"}},{flavor_text:`The foe is slashed
+with a sharp leaf.
+It has a high
+critical-hit ratio.
+`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"diamond-pearl",url:"https://pokeapi.co/api/v2/version-group/8/"}},{flavor_text:`The foe is slashed
+with a sharp leaf.
+It has a high
+critical-hit ratio.
+`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"platinum",url:"https://pokeapi.co/api/v2/version-group/9/"}},{flavor_text:`The foe is slashed
+with a sharp leaf.
+It has a high
+critical-hit ratio.
+`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"heartgold-soulsilver",url:"https://pokeapi.co/api/v2/version-group/10/"}},{flavor_text:`Une feuille coupante comme une lame
+entaille l’ennemi. Taux de critiques élevé.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"black-white",url:"https://pokeapi.co/api/v2/version-group/11/"}},{flavor_text:`The user handles a sharp leaf like a
+sword and attacks by cutting its target.
+Critical hits land more easily.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"black-white",url:"https://pokeapi.co/api/v2/version-group/11/"}},{flavor_text:`The user handles a sharp leaf like a
+sword and attacks by cutting its target.
+Critical hits land more easily.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"black-2-white-2",url:"https://pokeapi.co/api/v2/version-group/14/"}},{flavor_text:`はっぱを　つるぎのように　あやつり
+あいてを　きりつけて　こうげきする。
+きゅうしょに　あたりやすい。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`잎사귀를 칼처럼 이용해
+상대를 베어 공격한다.
+급소에 맞기 쉽다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`Une feuille coupante comme une lame entaille
+l’ennemi. Taux de critiques élevé.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`Hieb mit scharfkantigem Blatt.
+Hohe Volltrefferquote.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`Acuchilla con una hoja fina. Suele dar un golpe
+crítico.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`Colpisce il bersaglio usando una foglia affilata
+come una spada. Probabile brutto colpo.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`The user handles a sharp leaf like a
+sword and attacks by cutting its target.
+Critical hits land more easily.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`はっぱを　剣のように　あやつり
+相手を　切りつけて　攻撃する。
+急所に　当たりやすい。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`はっぱを　つるぎのように　あやつり
+あいてを　きりつけて　こうげきする。
+きゅうしょに　あたりやすい。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`잎사귀를 칼처럼 이용해
+상대를 베어 공격한다.
+급소에 맞기 쉽다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`Une feuille coupante comme une lame entaille
+l’ennemi. Taux de critiques élevé.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`Hieb mit scharfkantigem Blatt.
+Hohe Volltrefferquote.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`Acuchilla con una hoja fina. Suele dar un golpe 
+crítico.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`Colpisce il bersaglio usando una foglia affilata
+come una spada. Probabile brutto colpo.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`The user handles a sharp leaf like a
+sword and attacks by cutting its target.
+Critical hits land more easily.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`はっぱを　剣のように　あやつり
+相手を　切りつけて　攻撃する。
+急所に　当たりやすい。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`はっぱを　つるぎのように　あやつり
+あいてを　きりつけて　こうげきする。
+きゅうしょに　あたりやすい。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`잎사귀를 칼처럼 이용해
+상대를 베어 공격한다.
+급소에 맞기 쉽다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`如用劍般操控葉子
+切斬對手進行攻擊。
+容易擊中要害。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Une feuille coupante comme une lame entaille
+l’ennemi. Taux de critique élevé.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:"Hieb mit scharfkantigem Blatt. Hohe Volltrefferquote.",language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Acuchilla con una hoja fina. Suele dar un golpe 
+crítico.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Colpisce il bersaglio usando una foglia affilata
+come una spada. Probabile brutto colpo.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`The user handles a sharp leaf like a sword and
+attacks by cutting its target. Critical hits land
+more easily.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`はっぱを　剣のように　あやつり
+相手を　切りつけて　攻撃する。
+急所に　当たりやすい。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`像用剑一般操纵叶片
+切斩对手进行攻击。
+容易击中要害。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`はっぱを　つるぎのように　あやつり
+あいてを　きりつけて　こうげきする。
+きゅうしょに　あたりやすい。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`잎사귀를 칼처럼 이용해
+상대를 베어 공격한다.
+급소에 맞기 쉽다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`如用劍般操控葉子
+切斬對手進行攻擊。
+容易擊中要害。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Une feuille coupante comme une lame entaille
+l’ennemi. Taux de critique élevé.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:"Hieb mit scharfkantigem Blatt. Hohe Volltrefferquote.",language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Acuchilla con una hoja fina. Suele dar un golpe 
+crítico.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Colpisce il bersaglio usando una foglia affilata
+come una spada. Probabile brutto colpo.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`The user handles a sharp leaf like a sword and
+attacks by cutting its target. Critical hits land
+more easily.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`はっぱを　剣のように　あやつり
+相手を　切りつけて　攻撃する。
+急所に　当たりやすい。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`像用剑一般操纵叶片
+切斩对手进行攻击。
+容易击中要害。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`はっぱを　つるぎのように　あやつり
+あいてを　きりつけて　こうげきする。
+きゅうしょに　あたりやすい。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`잎사귀를 칼처럼 이용해
+상대를 베어 공격한다.
+급소에 맞기 쉽다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`如用劍般操控葉子
+切斬對手進行攻擊。
+容易擊中要害。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Une feuille coupante comme une lame entaille l’ennemi.
+Taux de critique élevé.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:"Hieb mit scharfkantigem Blatt. Hohe Volltrefferquote.",language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Acuchilla con una hoja fina. Suele dar un golpe 
+crítico.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Colpisce il bersaglio usando una foglia affilata
+come una spada. Probabile brutto colpo.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`The user handles a sharp leaf like a sword and
+attacks by cutting its target. Critical hits land
+more easily.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`はっぱを　剣のように　あやつり
+相手を　切りつけて　攻撃する。
+急所に　当たりやすい。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`像用剑一般操纵叶片
+切斩对手进行攻击。
+容易击中要害。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`はっぱを　つるぎのように　あやつり
+あいてを　きりつけて　こうげきする。
+きゅうしょに　あたりやすい。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`잎사귀를 칼처럼 이용해
+상대를 베어 공격한다.
+급소에 맞기 쉽다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`如用劍般操控葉子
+切斬對手進行攻擊。
+容易擊中要害。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Une feuille coupante comme une lame entaille l’ennemi.
+Taux de critiques élevé.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:"Hieb mit scharfkantigem Blatt. Hohe Volltrefferquote.",language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:"Acuchilla con una hoja fina. Suele dar un golpe crítico.",language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Colpisce il bersaglio usando una foglia affilata
+come una spada. Probabile brutto colpo.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`The user handles a sharp leaf like a sword and
+attacks by cutting its target. Critical hits land
+more easily.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`はっぱを　剣のように　あやつり
+相手を　切りつけて　攻撃する。
+急所に　当たりやすい。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`像用剑一般操纵叶片
+切斩对手进行攻击。
+容易击中要害。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:"The user handles a sharp leaf like a sword and attacks by cutting its target. This move has a heightened chance of landing a critical hit.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"legends-arceus",url:"https://pokeapi.co/api/v2/version-group/24/"}},{flavor_text:"The user handles a sharp leaf like a sword and cuts the target to inflict damage. This move has a heightened chance of landing a critical hit.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"scarlet-violet",url:"https://pokeapi.co/api/v2/version-group/25/"}}],r={name:"generation-iii",url:"https://pokeapi.co/api/v2/generation/3/"},l=348,u=[{name:"victreebel",url:"https://pokeapi.co/api/v2/pokemon/71/"},{name:"farfetchd",url:"https://pokeapi.co/api/v2/pokemon/83/"},{name:"mew",url:"https://pokeapi.co/api/v2/pokemon/151/"},{name:"bellossom",url:"https://pokeapi.co/api/v2/pokemon/182/"},{name:"celebi",url:"https://pokeapi.co/api/v2/pokemon/251/"},{name:"grovyle",url:"https://pokeapi.co/api/v2/pokemon/253/"},{name:"sceptile",url:"https://pokeapi.co/api/v2/pokemon/254/"},{name:"nuzleaf",url:"https://pokeapi.co/api/v2/pokemon/274/"},{name:"shiftry",url:"https://pokeapi.co/api/v2/pokemon/275/"},{name:"tropius",url:"https://pokeapi.co/api/v2/pokemon/357/"},{name:"turtwig",url:"https://pokeapi.co/api/v2/pokemon/387/"},{name:"grotle",url:"https://pokeapi.co/api/v2/pokemon/388/"},{name:"torterra",url:"https://pokeapi.co/api/v2/pokemon/389/"},{name:"leafeon",url:"https://pokeapi.co/api/v2/pokemon/470/"},{name:"gallade",url:"https://pokeapi.co/api/v2/pokemon/475/"},{name:"snivy",url:"https://pokeapi.co/api/v2/pokemon/495/"},{name:"servine",url:"https://pokeapi.co/api/v2/pokemon/496/"},{name:"serperior",url:"https://pokeapi.co/api/v2/pokemon/497/"},{name:"leavanny",url:"https://pokeapi.co/api/v2/pokemon/542/"},{name:"lilligant",url:"https://pokeapi.co/api/v2/pokemon/549/"},{name:"virizion",url:"https://pokeapi.co/api/v2/pokemon/640/"},{name:"skiddo",url:"https://pokeapi.co/api/v2/pokemon/672/"},{name:"gogoat",url:"https://pokeapi.co/api/v2/pokemon/673/"},{name:"rowlet",url:"https://pokeapi.co/api/v2/pokemon/722/"},{name:"dartrix",url:"https://pokeapi.co/api/v2/pokemon/723/"},{name:"decidueye",url:"https://pokeapi.co/api/v2/pokemon/724/"},{name:"fomantis",url:"https://pokeapi.co/api/v2/pokemon/753/"},{name:"lurantis",url:"https://pokeapi.co/api/v2/pokemon/754/"},{name:"kartana",url:"https://pokeapi.co/api/v2/pokemon/798/"},{name:"sirfetchd",url:"https://pokeapi.co/api/v2/pokemon/865/"},{name:"iron-valiant",url:"https://pokeapi.co/api/v2/pokemon/1006/"},{name:"iron-leaves",url:"https://pokeapi.co/api/v2/pokemon/1010/"},{name:"sceptile-mega",url:"https://pokeapi.co/api/v2/pokemon/10065/"},{name:"gallade-mega",url:"https://pokeapi.co/api/v2/pokemon/10068/"},{name:"lurantis-totem",url:"https://pokeapi.co/api/v2/pokemon/10128/"},{name:"farfetchd-galar",url:"https://pokeapi.co/api/v2/pokemon/10166/"},{name:"lilligant-hisui",url:"https://pokeapi.co/api/v2/pokemon/10237/"},{name:"decidueye-hisui",url:"https://pokeapi.co/api/v2/pokemon/10244/"}],s=[{machine:{url:"https://pokeapi.co/api/v2/machine/1639/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}}],g={ailment:{name:"none",url:"https://pokeapi.co/api/v2/move-ailment/0/"},ailment_chance:0,category:{name:"damage",url:"https://pokeapi.co/api/v2/move-category/0/"},crit_rate:1,drain:0,flinch_chance:0,healing:0,max_hits:null,max_turns:null,min_hits:null,min_turns:null,stat_chance:0},c="leaf-blade",v=[{language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},name:"リーフブレード"},{language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},name:"리프블레이드"},{language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},name:"葉刃"},{language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},name:"Lame Feuille"},{language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},name:"Laubklinge"},{language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},name:"Hoja Aguda"},{language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},name:"Fendifoglia"},{language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},name:"Leaf Blade"},{language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},name:"リーフブレード"},{language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},name:"叶刃"}],h=[{accuracy:null,effect_chance:null,effect_entries:[],power:70,pp:null,type:null,version_group:{name:"diamond-pearl",url:"https://pokeapi.co/api/v2/version-group/8/"}}],m=90,k=15,f=0,_=[],d={url:"https://pokeapi.co/api/v2/super-contest-effect/17/"},x={name:"selected-pokemon",url:"https://pokeapi.co/api/v2/move-target/10/"},b={name:"grass",url:"https://pokeapi.co/api/v2/type/12/"},H={accuracy:100,contest_combos:null,contest_effect:a,contest_type:e,damage_class:o,effect_chance:p,effect_changes:n,effect_entries:t,flavor_text_entries:i,generation:r,id:l,learned_by_pokemon:u,machines:s,meta:g,name:c,names:v,past_values:h,power:m,pp:k,priority:f,stat_changes:_,super_contest_effect:d,target:x,type:b};export{y as accuracy,w as contest_combos,a as contest_effect,e as contest_type,o as damage_class,H as default,p as effect_chance,n as effect_changes,t as effect_entries,i as flavor_text_entries,r as generation,l as id,u as learned_by_pokemon,s as machines,g as meta,c as name,v as names,h as past_values,m as power,k as pp,f as priority,_ as stat_changes,d as super_contest_effect,x as target,b as type};

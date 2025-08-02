@@ -1,0 +1,81 @@
+const x=null,w=null,z=null,b=null,e={name:"physical",url:"https://pokeapi.co/api/v2/move-damage-class/2/"},a=null,o=[],n=[{effect:"Inflicts regular damage.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},short_effect:"Inflicts regular damage with no additional effect."}],t=[{flavor_text:`Ｚパワーで　じめんの　おくふかくに　もぐり
+ぜんりょくで　あいてに　ぶつかる。
+もとになった　わざで　いりょくが　かわる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Z파워로 땅 깊숙이 파고들어
+전력으로 상대에게 부딪친다.
+원래 기술에 따라 위력이 변한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`透過Ｚ力量潛入地底深處，
+全力撞擊對手。
+威力會隨原本的招式而改變。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Le Pokémon utilise la Force Z pour entraîner
+l’adversaire dans les profondeurs de la terre. La
+puissance varie selon celle de la capacité originale.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Der Anwender zerrt das Ziel mit Z-Kraft tief in den
+Boden und kollidiert dort mit ihm. Die Stärke variiert
+je nach zugrunde liegender Attacke.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Emplea el Poder Z para abrir una profunda grieta en
+el suelo que se traga al oponente. Su potencia
+depende de la del movimiento original.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Grazie al Potere Z, chi la usa si tuffa nelle viscere
+della terra e colpisce con violenza il bersaglio. La
+potenza varia a seconda della mossa su cui si basa.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`The user burrows deep into the ground and slams
+into the target with the full force of its Z-Power.
+The power varies, depending on the original move.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Ｚパワーで　地面の　奥深くに　潜り
+全力で　相手に　ぶつかる。
+元になった　技で　威力が　変わる。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`通过Ｚ力量潜入地里最深处，
+全力撞上对手。
+威力会根据原来的招式而改变。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Ｚパワーで　じめんの　おくふかくに　もぐり
+ぜんりょくで　あいてに　ぶつかる。
+もとになった　わざで　いりょくが　かわる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Z파워로 땅 깊숙이 파고들어
+전력으로 상대에게 부딪친다.
+원래 기술에 따라 위력이 변한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`透過Ｚ力量潛入地底深處，
+全力撞擊對手。
+威力會隨原本的招式而改變。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Le Pokémon utilise la Force Z pour entraîner
+l’adversaire dans les profondeurs de la terre. La
+puissance varie selon celle de la capacité originale.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Der Anwender zerrt das Ziel mit Z-Kraft tief in den
+Boden und kollidiert dort mit ihm. Die Stärke variiert
+je nach zugrunde liegender Attacke.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Emplea el Poder Z para abrir una profunda grieta en
+el suelo que se traga al oponente. Su potencia
+depende de la del movimiento original.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Grazie al Potere Z, chi la usa si tuffa nelle viscere
+della terra e colpisce con violenza il bersaglio. La
+potenza varia a seconda della mossa su cui si basa.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`The user burrows deep into the ground and slams
+into the target with the full force of its Z-Power.
+The power varies, depending on the original move.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Ｚパワーで　地面の　奥深くに　潜り
+全力で　相手に　ぶつかる。
+元になった　技で　威力が　変わる。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`通过Ｚ力量潜入地里最深处，
+全力撞上对手。
+威力会根据原来的招式而改变。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Ｚパワーで　じめんの　おくふかくに　もぐり
+ぜんりょくで　あいてに　ぶつかる。
+もとになった　わざで　いりょくが　かわる。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Z파워로 땅 깊숙이 파고들어
+전력으로 상대에게 부딪친다.
+원래 기술에 따라 위력이 변한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`透過Ｚ力量潛入地底深處，
+全力撞擊對手。
+威力會隨原本的招式而改變。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Le Pokémon utilise la Force Z pour entraîner l’adversaire
+dans les profondeurs de la terre. La puissance varie
+selon celle de la capacité originale.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Der Anwender zerrt das Ziel mit Z-Kraft tief in den
+Boden und kollidiert dort mit ihm. Die Stärke variiert
+je nach zugrunde liegender Attacke.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Emplea el Poder Z para abrir una profunda grieta en
+el suelo que se traga al oponente. Su potencia
+depende de la del movimiento original.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Grazie al Potere Z, chi la usa si tuffa nelle viscere
+della terra e colpisce con violenza il bersaglio. La
+potenza varia a seconda della mossa su cui si basa.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`The user burrows deep into the ground and slams
+into the target with the full force of its Z-Power.
+The power varies, depending on the original move.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Ｚパワーで　地面の　奥深くに　潜り
+全力で　相手に　ぶつかる。
+元になった　技で　威力が　変わる。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`通过Ｚ力量潜入地里最深处，
+全力撞上对手。
+威力会根据原来的招式而改变。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`このわざは　つかえません
+おもいだすことが　できなくなりますが
+わざを　わすれることを　おすすめします`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`사용할 수 없는 기술입니다.
+다시 배우게 할 수 없지만
+기술을 잊게 하는 것을 권장합니다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`無法使用此招式。
+雖然忘記後將無法再想起來，
+但還是建議忘記此招式。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Cette capacité ne peut pas être utilisée.
+Il est recommandé de l’oublier, même s’il sera
+impossible de se la remémorer une fois oubliée.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Diese Attacke kann nicht eingesetzt werden. Du solltest
+dein Pokémon sie vergessen lassen. Beachte aber,
+dass es sich danach nicht wieder an sie erinnern kann.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Este movimiento no se puede usar, por lo que sería
+mejor olvidarlo, aunque eso implique que no se pueda
+recordar posteriormente.`,language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Questa mossa non può essere usata.
+È consigliabile farla dimenticare al Pokémon. Tuttavia,
+una volta dimenticata, non potrà più essere ricordata.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`This move can’t be used.
+It’s recommended that this move is forgotten.
+Once forgotten, this move can’t be remembered.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`この技は　使えません
+思い出すことが　できなくなりますが
+技を　忘れることを　おすすめします`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`无法使用这个招式。
+虽然忘记之后就再也想不起来了，
+但还是建议忘记这个招式。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}}],r={name:"generation-vii",url:"https://pokeapi.co/api/v2/generation/7/"},p=630,i=[],l=[],s={ailment:{name:"none",url:"https://pokeapi.co/api/v2/move-ailment/0/"},ailment_chance:0,category:{name:"damage",url:"https://pokeapi.co/api/v2/move-category/0/"},crit_rate:0,drain:0,flinch_chance:0,healing:0,max_hits:null,max_turns:null,min_hits:null,min_turns:null,stat_chance:0},u="tectonic-rage--physical",g=[{language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},name:"ライジングランドオーバー"},{language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},name:"라이징랜드오버"},{language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},name:"地隆嘯天大終結"},{language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},name:"Éruption Géo-Sismique"},{language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},name:"Seismische Eruption"},{language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},name:"Barrena Telúrica"},{language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},name:"Furore della Terra"},{language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},name:"Tectonic Rage"},{language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},name:"ライジングランドオーバー"},{language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},name:"地隆啸天大终结"}],c=[],v=null,m=1,h=0,d=[],k=null,_={name:"selected-pokemon",url:"https://pokeapi.co/api/v2/move-target/10/"},f={name:"ground",url:"https://pokeapi.co/api/v2/type/5/"},Z={accuracy:null,contest_combos:null,contest_effect:null,contest_type:null,damage_class:e,effect_chance:a,effect_changes:o,effect_entries:n,flavor_text_entries:t,generation:r,id:p,learned_by_pokemon:i,machines:l,meta:s,name:u,names:g,past_values:c,power:v,pp:m,priority:h,stat_changes:d,super_contest_effect:k,target:_,type:f};export{x as accuracy,w as contest_combos,z as contest_effect,b as contest_type,e as damage_class,Z as default,a as effect_chance,o as effect_changes,n as effect_entries,t as flavor_text_entries,r as generation,p as id,i as learned_by_pokemon,l as machines,s as meta,u as name,g as names,c as past_values,v as power,m as pp,h as priority,d as stat_changes,k as super_contest_effect,_ as target,f as type};

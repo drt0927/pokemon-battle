@@ -1,0 +1,94 @@
+const y=null,a={normal:{use_after:[{name:"fake-out",url:"https://pokeapi.co/api/v2/move/252/"}],use_before:null},super:{use_after:null,use_before:null}},e={url:"https://pokeapi.co/api/v2/contest-effect/31/"},o={name:"cool",url:"https://pokeapi.co/api/v2/contest-type/1/"},p={name:"physical",url:"https://pokeapi.co/api/v2/move-damage-class/2/"},n=null,t=[],r=[{effect:"Inflicts regular damage.  Ignores accuracy and evasion modifiers.",language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},short_effect:"Never misses."}],i=[{flavor_text:`攻擊的順序會在對手之後。
+但是自己的攻擊必定會命中。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`A 2nd-strike move
+that never misses.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"gold-silver",url:"https://pokeapi.co/api/v2/version-group/3/"}},{flavor_text:`A 2nd-strike move
+that never misses.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"crystal",url:"https://pokeapi.co/api/v2/version-group/4/"}},{flavor_text:`Makes the user’s move last,
+but it never misses.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"ruby-sapphire",url:"https://pokeapi.co/api/v2/version-group/5/"}},{flavor_text:`Makes the user’s move last,
+but it never misses.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"emerald",url:"https://pokeapi.co/api/v2/version-group/6/"}},{flavor_text:`Makes the user
+attack after the
+foe. In return,
+it will not miss.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"firered-leafgreen",url:"https://pokeapi.co/api/v2/version-group/7/"}},{flavor_text:`The user allows the
+foe to attack first.
+In return, this throw
+move is guaranteed
+not to miss.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"diamond-pearl",url:"https://pokeapi.co/api/v2/version-group/8/"}},{flavor_text:`The user allows the
+foe to attack first.
+In return, this throw
+move is guaranteed
+not to miss.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"platinum",url:"https://pokeapi.co/api/v2/version-group/9/"}},{flavor_text:`The user allows the
+foe to attack first.
+In return, this throw
+move is guaranteed
+not to miss.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"heartgold-soulsilver",url:"https://pokeapi.co/api/v2/version-group/10/"}},{flavor_text:`Le lanceur porte son coup en
+dernier. En échange, cette
+capacité n’échoue jamais.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"black-white",url:"https://pokeapi.co/api/v2/version-group/11/"}},{flavor_text:`The user attacks last.
+In return, this throw move is
+guaranteed not to miss.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"black-white",url:"https://pokeapi.co/api/v2/version-group/11/"}},{flavor_text:`The user attacks last.
+In return, this throw move is
+guaranteed not to miss.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"black-2-white-2",url:"https://pokeapi.co/api/v2/version-group/14/"}},{flavor_text:`あいてより　あとに　こうげきする。
+そのかわり　じぶんの　こうげきは
+かならず　めいちゅうする。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`상대보다 나중에 공격한다.
+그 대신 자신의 공격은
+반드시 명중한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`Le lanceur porte son coup en dernier.
+En échange, cette capacité n’échoue jamais.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`Anwender greift als Letzter an, hat dafür aber
+eine Treffergarantie beim eigenen Angriff.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:"El usuario ataca el último, pero no falla.",language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`Chi la usa attacca per ultimo, ma il colpo
+è sempre infallibile.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`The user attacks last. In return, this throw
+move never misses.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`相手より　あとに　攻撃する。
+そのかわり　自分の　攻撃は
+必ず　命中する。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"x-y",url:"https://pokeapi.co/api/v2/version-group/15/"}},{flavor_text:`あいてより　あとに　こうげきする。
+そのかわり　じぶんの　こうげきは
+かならず　めいちゅうする。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`상대보다 나중에 공격한다.
+그 대신 자신의 공격은
+반드시 명중한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`Le lanceur porte son coup en dernier.
+En échange, cette capacité n’échoue jamais.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`Anwender greift als Letzter an, hat dafür aber
+eine Treffergarantie beim eigenen Angriff.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:"El usuario ataca el último, pero no falla.",language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`Chi la usa attacca per ultimo, ma il colpo
+è sempre infallibile.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`The user attacks last. In return, this throw
+move never misses.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`相手より　あとに　攻撃する。
+そのかわり　自分の　攻撃は
+必ず　命中する。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"omega-ruby-alpha-sapphire",url:"https://pokeapi.co/api/v2/version-group/16/"}},{flavor_text:`あいてより　あとに　こうげきする。
+そのかわり　じぶんの　こうげきは
+かならず　めいちゅうする。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`상대보다 나중에 공격한다.
+그 대신 자신의 공격은
+반드시 명중한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`攻擊的順序會在對手之後。
+但是自己的攻擊必定會命中。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Le lanceur porte son coup en dernier.
+En échange, cette capacité n’échoue jamais.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Anwender greift als Letzter an, hat dafür aber eine
+Treffergarantie beim eigenen Angriff.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:"El usuario ataca el último, pero no falla.",language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`Chi la usa attacca per ultimo, ma il colpo
+è sempre infallibile.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`The user attacks last. In return, this throw move
+never misses.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`相手より　あとに　攻撃する。
+そのかわり　自分の　攻撃は
+必ず　命中する。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`会在对手之后进行攻击。
+但是自己的攻击必定会命中。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sun-moon",url:"https://pokeapi.co/api/v2/version-group/17/"}},{flavor_text:`あいてより　あとに　こうげきする。
+そのかわり　じぶんの　こうげきは
+かならず　めいちゅうする。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`상대보다 나중에 공격한다.
+그 대신 자신의 공격은
+반드시 명중한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`攻擊的順序會在對手之後。
+但是自己的攻擊必定會命中。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Le lanceur porte son coup en dernier.
+En échange, cette capacité n’échoue jamais.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Anwender greift als Letzter an, hat dafür aber eine
+Treffergarantie beim eigenen Angriff.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:"El usuario ataca el último, pero no falla.",language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`Chi la usa attacca per ultimo, ma il colpo
+è sempre infallibile.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`The user attacks last. In return, this throw move
+never misses.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`相手より　あとに　攻撃する。
+そのかわり　自分の　攻撃は
+必ず　命中する。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`会在对手之后进行攻击。
+但是自己的攻击必定会命中。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"ultra-sun-ultra-moon",url:"https://pokeapi.co/api/v2/version-group/18/"}},{flavor_text:`あいてより　あとに　こうげきする。
+そのかわり　じぶんの　こうげきは
+かならず　めいちゅうする。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`상대보다 나중에 공격한다.
+그 대신 자신의 공격은
+반드시 명중한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Le lanceur porte son coup en dernier.
+En échange, cette capacité n’échoue jamais.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Anwender greift als Letzter an, hat dafür aber eine
+Treffergarantie beim eigenen Angriff.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:"El usuario ataca el último, pero no falla.",language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`Chi la usa attacca per ultimo, ma il colpo
+è sempre infallibile.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`The user attacks last. In return, this throw move
+never misses.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`相手より　あとに　攻撃する。
+そのかわり　自分の　攻撃は
+必ず　命中する。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`会在对手之后进行攻击。
+但是自己的攻击必定会命中。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"lets-go-pikachu-lets-go-eevee",url:"https://pokeapi.co/api/v2/version-group/19/"}},{flavor_text:`あいてより　あとに　こうげきする。
+そのかわり　じぶんの　こうげきは
+かならず　めいちゅうする。`,language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`상대보다 나중에 공격한다.
+그 대신 자신의 공격은
+반드시 명중한다.`,language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`攻擊的順序會在對手之後。
+但是自己的攻擊必定會命中。`,language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Le lanceur porte son coup en dernier.
+En échange, cette capacité n’échoue jamais.`,language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Anwender greift als Letzter an, hat dafür aber eine
+Treffergarantie beim eigenen Angriff.`,language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:"El usuario ataca el último, pero no falla.",language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`Chi la usa attacca per ultimo, ma il colpo
+è sempre infallibile.`,language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`The user attacks last. In return, this throw move
+never misses.`,language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`相手より　あとに　攻撃する。
+そのかわり　自分の　攻撃は
+必ず　命中する。`,language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}},{flavor_text:`会在对手之后进行攻击。
+但是自己的攻击必定会命中。`,language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},version_group:{name:"sword-shield",url:"https://pokeapi.co/api/v2/version-group/20/"}}],u={name:"generation-ii",url:"https://pokeapi.co/api/v2/generation/2/"},s=233,l=[{name:"machop",url:"https://pokeapi.co/api/v2/pokemon/66/"},{name:"machoke",url:"https://pokeapi.co/api/v2/pokemon/67/"},{name:"machamp",url:"https://pokeapi.co/api/v2/pokemon/68/"},{name:"pinsir",url:"https://pokeapi.co/api/v2/pokemon/127/"},{name:"makuhita",url:"https://pokeapi.co/api/v2/pokemon/296/"},{name:"hariyama",url:"https://pokeapi.co/api/v2/pokemon/297/"},{name:"throh",url:"https://pokeapi.co/api/v2/pokemon/538/"},{name:"mienfoo",url:"https://pokeapi.co/api/v2/pokemon/619/"},{name:"pancham",url:"https://pokeapi.co/api/v2/pokemon/674/"},{name:"pangoro",url:"https://pokeapi.co/api/v2/pokemon/675/"},{name:"passimian",url:"https://pokeapi.co/api/v2/pokemon/766/"},{name:"buzzwole",url:"https://pokeapi.co/api/v2/pokemon/794/"},{name:"pinsir-mega",url:"https://pokeapi.co/api/v2/pokemon/10040/"}],g=[],v={ailment:{name:"none",url:"https://pokeapi.co/api/v2/move-ailment/0/"},ailment_chance:0,category:{name:"damage",url:"https://pokeapi.co/api/v2/move-category/0/"},crit_rate:0,drain:0,flinch_chance:0,healing:0,max_hits:null,max_turns:null,min_hits:null,min_turns:null,stat_chance:0},c="vital-throw",m=[{language:{name:"ja-Hrkt",url:"https://pokeapi.co/api/v2/language/1/"},name:"あてみなげ"},{language:{name:"ko",url:"https://pokeapi.co/api/v2/language/3/"},name:"받아던지기"},{language:{name:"zh-Hant",url:"https://pokeapi.co/api/v2/language/4/"},name:"借力摔"},{language:{name:"fr",url:"https://pokeapi.co/api/v2/language/5/"},name:"Corps Perdu"},{language:{name:"de",url:"https://pokeapi.co/api/v2/language/6/"},name:"Überwurf"},{language:{name:"es",url:"https://pokeapi.co/api/v2/language/7/"},name:"Tiro Vital"},{language:{name:"it",url:"https://pokeapi.co/api/v2/language/8/"},name:"Vitaltiro"},{language:{name:"en",url:"https://pokeapi.co/api/v2/language/9/"},name:"Vital Throw"},{language:{name:"ja",url:"https://pokeapi.co/api/v2/language/11/"},name:"あてみなげ"},{language:{name:"zh-Hans",url:"https://pokeapi.co/api/v2/language/12/"},name:"借力摔"}],h=[],k=70,_=10,f=-1,x=[],d={url:"https://pokeapi.co/api/v2/super-contest-effect/2/"},w={name:"selected-pokemon",url:"https://pokeapi.co/api/v2/move-target/10/"},b={name:"fighting",url:"https://pokeapi.co/api/v2/type/2/"},j={accuracy:null,contest_combos:a,contest_effect:e,contest_type:o,damage_class:p,effect_chance:n,effect_changes:t,effect_entries:r,flavor_text_entries:i,generation:u,id:s,learned_by_pokemon:l,machines:g,meta:v,name:c,names:m,past_values:h,power:k,pp:_,priority:f,stat_changes:x,super_contest_effect:d,target:w,type:b};export{y as accuracy,a as contest_combos,e as contest_effect,o as contest_type,p as damage_class,j as default,n as effect_chance,t as effect_changes,r as effect_entries,i as flavor_text_entries,u as generation,s as id,l as learned_by_pokemon,g as machines,v as meta,c as name,m as names,h as past_values,k as power,_ as pp,f as priority,x as stat_changes,d as super_contest_effect,w as target,b as type};
